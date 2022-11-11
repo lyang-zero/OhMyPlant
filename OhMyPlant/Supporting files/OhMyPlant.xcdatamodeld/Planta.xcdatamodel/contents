@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="19574" systemVersion="20G314" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithCloudKit="YES" userDefinedModelVersionIdentifier="">
+    <entity name="Album" representedClassName="Album" syncable="YES" codeGenerationType="class">
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="plantId" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="CareAction" representedClassName="CareAction" syncable="YES" codeGenerationType="class">
+        <attribute name="actionDescription" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="plantId" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+    </entity>
+    <entity name="Plant" representedClassName="Plant" syncable="YES" codeGenerationType="class">
+        <attribute name="category_" optional="YES" attributeType="String"/>
+        <attribute name="fertilizeSchedule" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="id_" optional="YES" attributeType="String"/>
+        <attribute name="image" optional="YES" attributeType="Binary"/>
+        <attribute name="isDead" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="lastFertilizeDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="lastWaterDate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="location_" optional="YES" attributeType="String"/>
+        <attribute name="name_" optional="YES" attributeType="String"/>
+        <attribute name="note" optional="YES" attributeType="String"/>
+        <attribute name="timestamp_" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="waterSchedule" optional="YES" attributeType="Double" defaultValueString="0" usesScalarValueType="YES"/>
+    </entity>
+    <entity name="WeatherHistory" representedClassName="WeatherHistory" syncable="YES" codeGenerationType="class">
+        <attribute name="cityName" optional="YES" attributeType="String"/>
+        <attribute name="timestamp" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="weatherData" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="CareAction" positionX="-63" positionY="90" width="128" height="104"/>
+        <element name="Plant" positionX="-63" positionY="-9" width="128" height="209"/>
+        <element name="WeatherHistory" positionX="-63" positionY="81" width="128" height="74"/>
+        <element name="Album" positionX="-63" positionY="81" width="128" height="89"/>
+    </elements>
+</model>

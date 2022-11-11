@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0E0A814127716BD300432DF2 /* CareAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A814027716BD300432DF2 /* CareAction.swift */; };
+		0E0A81432771824900432DF2 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A81422771824800432DF2 /* NotificationManager.swift */; };
+		0E0A81452771917900432DF2 /* AlbumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A81442771917900432DF2 /* AlbumView.swift */; };
+		0E0A8147277191DF00432DF2 /* AlbumViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0A8146277191DF00432DF2 /* AlbumViewModel.swift */; };
+		0E209BA8276E3E6C004E3052 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E209BA7276E3E6C004E3052 /* LocationManager.swift */; };
+		0E209BAA276EAC06004E3052 /* PlantEditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E209BA9276EAC05004E3052 /* PlantEditView.swift */; };
+		0E26440A27685363006F9736 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E26440927685363006F9736 /* ImagePicker.swift */; };
+		0E3CDC5A27658795007816FF /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E3CDC5927658795007816FF /* Sequence.swift */; };
+		0E445F302765CC2100376CF3 /* PlantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E445F2F2765CC2100376CF3 /* PlantDetailView.swift */; };
+		0E445F322766A88300376CF3 /* AddPlantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E445F312766A88300376CF3 /* AddPlantView.swift */; };
+		0E445F352766B6FA00376CF3 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E445F342766B6FA00376CF3 /* Protocols.swift */; };
+		0E445F372766D57200376CF3 /* PlantViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E445F362766D57200376CF3 /* PlantViewModel.swift */; };
+		0E445F392766DEA800376CF3 /* MyPlantsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E445F382766DEA800376CF3 /* MyPlantsViewModel.swift */; };
+		0E445F3B2766F77800376CF3 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E445F3A2766F77800376CF3 /* LocationDetailView.swift */; };
+		0E445F3D2767048C00376CF3 /* ItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E445F3C2767048C00376CF3 /* ItemCell.swift */; };
+		0E67EEF82763251D00E7146C /* Color+UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67EEF72763251D00E7146C /* Color+UIColor.swift */; };
+		0E67EEFA2763306500E7146C /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67EEF92763306500E7146C /* AppState.swift */; };
+		0E67EEFC2763A68400E7146C /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E67EEFB2763A68400E7146C /* UIApplication.swift */; };
+		0E70FB4E27628EFF00434715 /* OhMyPlantApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB4D27628EFF00434715 /* OhMyPlantApp.swift */; };
+		0E70FB5027628EFF00434715 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB4F27628EFF00434715 /* ContentView.swift */; };
+		0E70FB5527628F0300434715 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E70FB5427628F0300434715 /* Preview Assets.xcassets */; };
+		0E70FB5727628F0300434715 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB5627628F0300434715 /* Persistence.swift */; };
+		0E70FB5A27628F0300434715 /* OhMyPlant.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB5827628F0300434715 /* OhMyPlant.xcdatamodeld */; };
+		0E70FB672762945A00434715 /* Plant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB662762945A00434715 /* Plant.swift */; };
+		0E70FB692762971A00434715 /* ToDoListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB682762971A00434715 /* ToDoListView.swift */; };
+		0E70FB6B2762972B00434715 /* MyPlantsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB6A2762972B00434715 /* MyPlantsView.swift */; };
+		0E70FB6D2762973E00434715 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB6C2762973E00434715 /* SettingsView.swift */; };
+		0E70FB702762AFAD00434715 /* WeatherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB6F2762AFAD00434715 /* WeatherView.swift */; };
+		0E70FB722762AFDE00434715 /* WeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB712762AFDE00434715 /* WeatherViewModel.swift */; };
+		0E70FB742762F70700434715 /* ObservableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E70FB732762F70700434715 /* ObservableScrollView.swift */; };
+		0E7A7424276F8EB600B634E2 /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E7A7423276F8EB600B634E2 /* SearchBar.swift */; };
+		0EACDDF7276FEDB6000E5F19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0EACDDF6276FEDB6000E5F19 /* Assets.xcassets */; };
+		0EACDDF92770417C000E5F19 /* CareView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACDDF82770417C000E5F19 /* CareView.swift */; };
+		0EACDDFB27704933000E5F19 /* ActionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACDDFA27704933000E5F19 /* ActionViewModel.swift */; };
+		0EACDDFD277159EF000E5F19 /* PlantDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EACDDFC277159EE000E5F19 /* PlantDetailViewModel.swift */; };
+		0EBC01DA27630826001E88FD /* ToDoListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EBC01D927630826001E88FD /* ToDoListViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0E0A814027716BD300432DF2 /* CareAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareAction.swift; sourceTree = "<group>"; };
+		0E0A81422771824800432DF2 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		0E0A81442771917900432DF2 /* AlbumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumView.swift; sourceTree = "<group>"; };
+		0E0A8146277191DF00432DF2 /* AlbumViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlbumViewModel.swift; sourceTree = "<group>"; };
+		0E209BA7276E3E6C004E3052 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		0E209BA9276EAC05004E3052 /* PlantEditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantEditView.swift; sourceTree = "<group>"; };
+		0E26440927685363006F9736 /* ImagePicker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		0E26440B27685CF2006F9736 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0E3CDC5927658795007816FF /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
+		0E445F2F2765CC2100376CF3 /* PlantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailView.swift; sourceTree = "<group>"; };
+		0E445F312766A88300376CF3 /* AddPlantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlantView.swift; sourceTree = "<group>"; };
+		0E445F342766B6FA00376CF3 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		0E445F362766D57200376CF3 /* PlantViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantViewModel.swift; sourceTree = "<group>"; };
+		0E445F382766DEA800376CF3 /* MyPlantsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantsViewModel.swift; sourceTree = "<group>"; };
+		0E445F3A2766F77800376CF3 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		0E445F3C2767048C00376CF3 /* ItemCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemCell.swift; sourceTree = "<group>"; };
+		0E67EEF72763251D00E7146C /* Color+UIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+UIColor.swift"; sourceTree = "<group>"; };
+		0E67EEF92763306500E7146C /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		0E67EEFB2763A68400E7146C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		0E70FB4A27628EFF00434715 /* OhMyPlant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OhMyPlant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0E70FB4D27628EFF00434715 /* OhMyPlantApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OhMyPlantApp.swift; sourceTree = "<group>"; };
+		0E70FB4F27628EFF00434715 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		0E70FB5427628F0300434715 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		0E70FB5627628F0300434715 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		0E70FB5927628F0300434715 /* Planta.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Planta.xcdatamodel; sourceTree = "<group>"; };
+		0E70FB662762945A00434715 /* Plant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plant.swift; sourceTree = "<group>"; };
+		0E70FB682762971A00434715 /* ToDoListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListView.swift; sourceTree = "<group>"; };
+		0E70FB6A2762972B00434715 /* MyPlantsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlantsView.swift; sourceTree = "<group>"; };
+		0E70FB6C2762973E00434715 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		0E70FB6F2762AFAD00434715 /* WeatherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherView.swift; sourceTree = "<group>"; };
+		0E70FB712762AFDE00434715 /* WeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherViewModel.swift; sourceTree = "<group>"; };
+		0E70FB732762F70700434715 /* ObservableScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObservableScrollView.swift; sourceTree = "<group>"; };
+		0E7A7423276F8EB600B634E2 /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		0EACDDF6276FEDB6000E5F19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0EACDDF82770417C000E5F19 /* CareView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CareView.swift; sourceTree = "<group>"; };
+		0EACDDFA27704933000E5F19 /* ActionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActionViewModel.swift; sourceTree = "<group>"; };
+		0EACDDFC277159EE000E5F19 /* PlantDetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDetailViewModel.swift; sourceTree = "<group>"; };
+		0EBC01D927630826001E88FD /* ToDoListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToDoListViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0E70FB4727628EFF00434715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E445F332766B6BB00376CF3 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				0E445F342766B6FA00376CF3 /* Protocols.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		0E445F3E2767092400376CF3 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				0E70FB4F27628EFF00434715 /* ContentView.swift */,
+				0E70FB6C2762973E00434715 /* SettingsView.swift */,
+				0E70FB6A2762972B00434715 /* MyPlantsView.swift */,
+				0E70FB682762971A00434715 /* ToDoListView.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		0E70FB4127628EFF00434715 = {
+			isa = PBXGroup;
+			children = (
+				0E70FB4C27628EFF00434715 /* OhMyPlant */,
+				0E70FB4B27628EFF00434715 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0E70FB4B27628EFF00434715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0E70FB4A27628EFF00434715 /* OhMyPlant.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0E70FB4C27628EFF00434715 /* OhMyPlant */ = {
+			isa = PBXGroup;
+			children = (
+				0E445F332766B6BB00376CF3 /* Protocols */,
+				0E70FB64276293E000434715 /* Utils */,
+				0E70FB63276293D500434715 /* Extensions */,
+				0E70FB62276293C700434715 /* ViewModels */,
+				0E70FB61276293C100434715 /* Views */,
+				0E70FB60276293B800434715 /* Models */,
+				0E26440B27685CF2006F9736 /* Info.plist */,
+				0E70FB65276293F800434715 /* Supporting files */,
+				0E70FB5327628F0300434715 /* Preview Content */,
+			);
+			path = OhMyPlant;
+			sourceTree = "<group>";
+		};
+		0E70FB5327628F0300434715 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				0E70FB5427628F0300434715 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		0E70FB60276293B800434715 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				0E70FB662762945A00434715 /* Plant.swift */,
+				0E67EEF92763306500E7146C /* AppState.swift */,
+				0E0A814027716BD300432DF2 /* CareAction.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		0E70FB61276293C100434715 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0E445F3E2767092400376CF3 /* Core */,
+				0E70FB6E2762AF6000434715 /* Componets */,
+				0E445F312766A88300376CF3 /* AddPlantView.swift */,
+				0E445F2F2765CC2100376CF3 /* PlantDetailView.swift */,
+				0E445F3A2766F77800376CF3 /* LocationDetailView.swift */,
+				0E209BA9276EAC05004E3052 /* PlantEditView.swift */,
+				0EACDDF82770417C000E5F19 /* CareView.swift */,
+				0E0A81442771917900432DF2 /* AlbumView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		0E70FB62276293C700434715 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				0E70FB712762AFDE00434715 /* WeatherViewModel.swift */,
+				0EBC01D927630826001E88FD /* ToDoListViewModel.swift */,
+				0E445F382766DEA800376CF3 /* MyPlantsViewModel.swift */,
+				0E445F362766D57200376CF3 /* PlantViewModel.swift */,
+				0EACDDFA27704933000E5F19 /* ActionViewModel.swift */,
+				0EACDDFC277159EE000E5F19 /* PlantDetailViewModel.swift */,
+				0E0A8146277191DF00432DF2 /* AlbumViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		0E70FB63276293D500434715 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				0E67EEF72763251D00E7146C /* Color+UIColor.swift */,
+				0E67EEFB2763A68400E7146C /* UIApplication.swift */,
+				0E3CDC5927658795007816FF /* Sequence.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		0E70FB64276293E000434715 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				0E209BA7276E3E6C004E3052 /* LocationManager.swift */,
+				0E0A81422771824800432DF2 /* NotificationManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		0E70FB65276293F800434715 /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				0E70FB4D27628EFF00434715 /* OhMyPlantApp.swift */,
+				0E70FB5627628F0300434715 /* Persistence.swift */,
+				0EACDDF6276FEDB6000E5F19 /* Assets.xcassets */,
+				0E70FB5827628F0300434715 /* OhMyPlant.xcdatamodeld */,
+			);
+			path = "Supporting files";
+			sourceTree = "<group>";
+		};
+		0E70FB6E2762AF6000434715 /* Componets */ = {
+			isa = PBXGroup;
+			children = (
+				0E70FB732762F70700434715 /* ObservableScrollView.swift */,
+				0E26440927685363006F9736 /* ImagePicker.swift */,
+				0E70FB6F2762AFAD00434715 /* WeatherView.swift */,
+				0E445F3C2767048C00376CF3 /* ItemCell.swift */,
+				0E7A7423276F8EB600B634E2 /* SearchBar.swift */,
+			);
+			path = Componets;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0E70FB4927628EFF00434715 /* OhMyPlant */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0E70FB5D27628F0300434715 /* Build configuration list for PBXNativeTarget "OhMyPlant" */;
+			buildPhases = (
+				0E70FB4627628EFF00434715 /* Sources */,
+				0E70FB4727628EFF00434715 /* Frameworks */,
+				0E70FB4827628EFF00434715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OhMyPlant;
+			productName = Planta;
+			productReference = 0E70FB4A27628EFF00434715 /* OhMyPlant.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0E70FB4227628EFF00434715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1310;
+				LastUpgradeCheck = 1310;
+				TargetAttributes = {
+					0E70FB4927628EFF00434715 = {
+						CreatedOnToolsVersion = 13.1;
+					};
+				};
+			};
+			buildConfigurationList = 0E70FB4527628EFF00434715 /* Build configuration list for PBXProject "OhMyPlant" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0E70FB4127628EFF00434715;
+			productRefGroup = 0E70FB4B27628EFF00434715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0E70FB4927628EFF00434715 /* OhMyPlant */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0E70FB4827628EFF00434715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0EACDDF7276FEDB6000E5F19 /* Assets.xcassets in Resources */,
+				0E70FB5527628F0300434715 /* Preview Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0E70FB4627628EFF00434715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0E0A81452771917900432DF2 /* AlbumView.swift in Sources */,
+				0EBC01DA27630826001E88FD /* ToDoListViewModel.swift in Sources */,
+				0EACDDFD277159EF000E5F19 /* PlantDetailViewModel.swift in Sources */,
+				0E70FB692762971A00434715 /* ToDoListView.swift in Sources */,
+				0E209BA8276E3E6C004E3052 /* LocationManager.swift in Sources */,
+				0E445F3B2766F77800376CF3 /* LocationDetailView.swift in Sources */,
+				0E445F302765CC2100376CF3 /* PlantDetailView.swift in Sources */,
+				0E3CDC5A27658795007816FF /* Sequence.swift in Sources */,
+				0E0A8147277191DF00432DF2 /* AlbumViewModel.swift in Sources */,
+				0E209BAA276EAC06004E3052 /* PlantEditView.swift in Sources */,
+				0E70FB6D2762973E00434715 /* SettingsView.swift in Sources */,
+				0E67EEFC2763A68400E7146C /* UIApplication.swift in Sources */,
+				0E70FB5727628F0300434715 /* Persistence.swift in Sources */,
+				0E70FB742762F70700434715 /* ObservableScrollView.swift in Sources */,
+				0E0A814127716BD300432DF2 /* CareAction.swift in Sources */,
+				0EACDDF92770417C000E5F19 /* CareView.swift in Sources */,
+				0E70FB5027628EFF00434715 /* ContentView.swift in Sources */,
+				0E445F352766B6FA00376CF3 /* Protocols.swift in Sources */,
+				0E445F392766DEA800376CF3 /* MyPlantsViewModel.swift in Sources */,
+				0E7A7424276F8EB600B634E2 /* SearchBar.swift in Sources */,
+				0E70FB6B2762972B00434715 /* MyPlantsView.swift in Sources */,
+				0E70FB722762AFDE00434715 /* WeatherViewModel.swift in Sources */,
+				0E70FB672762945A00434715 /* Plant.swift in Sources */,
+				0E445F3D2767048C00376CF3 /* ItemCell.swift in Sources */,
+				0E0A81432771824900432DF2 /* NotificationManager.swift in Sources */,
+				0E445F322766A88300376CF3 /* AddPlantView.swift in Sources */,
+				0E67EEFA2763306500E7146C /* AppState.swift in Sources */,
+				0E67EEF82763251D00E7146C /* Color+UIColor.swift in Sources */,
+				0EACDDFB27704933000E5F19 /* ActionViewModel.swift in Sources */,
+				0E70FB702762AFAD00434715 /* WeatherView.swift in Sources */,
+				0E70FB4E27628EFF00434715 /* OhMyPlantApp.swift in Sources */,
+				0E26440A27685363006F9736 /* ImagePicker.swift in Sources */,
+				0E445F372766D57200376CF3 /* PlantViewModel.swift in Sources */,
+				0E70FB5A27628F0300434715 /* OhMyPlant.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0E70FB5B27628F0300434715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0E70FB5C27628F0300434715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0E70FB5E27628F0300434715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OhMyPlant/Preview Content\"";
+				DEVELOPMENT_TEAM = S6RCL4MW9Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OhMyPlant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OhMyPlant;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take a Photo for your plant!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In order to show current weather";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyang.OhMyPlant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0E70FB5F27628F0300434715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"OhMyPlant/Preview Content\"";
+				DEVELOPMENT_TEAM = S6RCL4MW9Z;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OhMyPlant/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = OhMyPlant;
+				INFOPLIST_KEY_NSCameraUsageDescription = "To take a Photo for your plant!";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "In order to show current weather";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lyang.OhMyPlant;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0E70FB4527628EFF00434715 /* Build configuration list for PBXProject "OhMyPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E70FB5B27628F0300434715 /* Debug */,
+				0E70FB5C27628F0300434715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0E70FB5D27628F0300434715 /* Build configuration list for PBXNativeTarget "OhMyPlant" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0E70FB5E27628F0300434715 /* Debug */,
+				0E70FB5F27628F0300434715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		0E70FB5827628F0300434715 /* OhMyPlant.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				0E70FB5927628F0300434715 /* Planta.xcdatamodel */,
+			);
+			currentVersion = 0E70FB5927628F0300434715 /* Planta.xcdatamodel */;
+			path = OhMyPlant.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 0E70FB4227628EFF00434715 /* Project object */;
+}
